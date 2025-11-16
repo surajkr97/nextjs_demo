@@ -11,10 +11,10 @@ async function Home() {
           key={album.id}
           className="bg-orange-50 shadow-md rounded-lg p-4 border border-gray-200 hover:shadow-lg transition"
         >
-          <h3 className="text-lg font-bold mb-2 text-gray-100">
+          <h3 className="text-lg font-bold mb-2 text-gray-900">
             {album.title}
           </h3>
-          <p className="text-gray-400">Album ID: {album.id}</p>
+          <p className="text-gray-600">Album ID: {album.id}</p>
         </div>
       ))}
     </div>
